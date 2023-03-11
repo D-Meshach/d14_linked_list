@@ -43,9 +43,10 @@ namespace linked_list
         public void display() {
 
             Node temp=this.head;
+            Console.WriteLine("The data added sequentially are");
             while (temp!= null) {
 
-                Console.WriteLine("The data are" + temp.data);
+                Console.WriteLine(" " + temp.data);
                 temp = temp.next;
 
             }
