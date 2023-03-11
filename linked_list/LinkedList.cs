@@ -52,6 +52,27 @@ namespace linked_list
 
         }
     }
+    public class ListDetails {
+
+        public ListDetails() {
+
+            LinkedList ld = new LinkedList();
+            ld.AddData(56);
+            ld.AddData(30);
+            ld.AddData(70);
+
+            ld.display();
+            Console.WriteLine("---------");
+            /*addprevious ad = new addprevious();
+            ad.AddData(23);
+            ad.AddData(24);
+            ad.AddData(25);
+            ad.AddData(26);
+            ad.display();*/
+
+        }
+
+    }
 
   /*  public class addprevious
     {

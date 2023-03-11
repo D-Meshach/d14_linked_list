@@ -10,19 +10,7 @@ namespace linked_list
     {
         static void Main(string[] args)
         {
-            LinkedList ld = new LinkedList();
-            ld.AddData(56);
-            ld.AddData(30);
-            ld.AddData(70);
-          
-            ld.display();
-            Console.WriteLine("---------");
-            /*addprevious ad = new addprevious();
-            ad.AddData(23);
-            ad.AddData(24);
-            ad.AddData(25);
-            ad.AddData(26);
-            ad.display();*/
+            ListDetails ls = new ListDetails();
          
         }
     }
