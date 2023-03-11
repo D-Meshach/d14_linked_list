@@ -27,14 +27,17 @@ namespace linked_list
                 {
 
                     temp = temp.next;
-
+                    
                    // Console.WriteLine("Temp.next is" + temp.data);
 
 
 
                 }
                 temp.next = node;
-                ////
+                Console.WriteLine(temp.data + "->" + temp.next.data);
+                int total = temp.next.data + temp.data;
+                temp.added = total;
+                Console.WriteLine(temp.added);
             }
 
            
@@ -47,6 +50,7 @@ namespace linked_list
             while (temp!= null) {
 
                 Console.WriteLine(" " + temp.data);
+                
                 temp = temp.next;
 
             }

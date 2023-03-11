@@ -10,7 +10,7 @@ namespace linked_list
     {
        public  int data;
         public Node next;
-        
+        public int added;
         public Node(int data) {
             this.data = data;
             
